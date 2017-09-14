@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Connected Bootstrap, script.js, and styles.css + a Google Font-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Playground</title>
+</head>
+<body>
+    <!--Putting some basic html dividers/sections here -->
+    <div class="container">
+        <!--This is the beginning of the navbar. I use Bootstrap to quickly draft up a webpage, since 
+            I'm not too interested in building a landing page from scratch -->
+        <nav class="navbar fixed-top navbar-expand-md bg-dark navbar-dark">
+            <a class="navbar-brand" href="#">Simple</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--These are the links that will be able to navigate to different pages/sections-->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--Start of the header. You don't need to use jumbotron, columns work just fine as well (ie col-12)-->
+        <div class="jumbotron text-center header">
+            <h1>Hello World</h1>
+        </div>
+
+
+    </div>
+    
+
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

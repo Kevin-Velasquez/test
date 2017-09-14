@@ -1,0 +1,12 @@
+body {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: normal;
+    background-image: url("http://crazy-frankenstein.com/free-wallpapers-files/seasonal-wallpapers/summer-nature-wallpapers/looking-over-summer-nature-wallpapers-2560x1440.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    margin-top: 10vh;
+    background-color: rgba(0, 0, 0, 0);
+}
