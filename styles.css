@@ -6,7 +6,16 @@ body {
     background-size: cover;
 }
 
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+a {
+    color: rgb(255, 155, 6);
+    font-style: italic;
+}
+
 .header {
-    margin-top: 10vh;
+    margin-top: 25vh;
     background-color: rgba(0, 0, 0, 0);
 }
